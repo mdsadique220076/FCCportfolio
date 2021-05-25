@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color1:#d89584;
+  --color2: #f4f4f4;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+#welcome-section {
+    background: url(images/cover_overlay.png) no-repeat center/100% 100%, url(images/cover.jpg) no-repeat center/cover;
+  /*  background-position: center;
+    background-size: cover;   */
+    height: 100vh;
+    overflow: auto;
+}
+
+h1.title {
+  margin-top: 250px;
+  color: white;
+}
+
+.md-profile-image {
+  width: 120px;
+  border-radius: 50%;
+}
+
+img.cover-profile {
+  margin-top: 50px;
+}
+
+div.profile-section h1 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+}
+
+#welcome-section p {
+  color: lightgray;
+  text-align: center;
+  margin: 5px;
+}
+
+div.cover-contact {
+  /*background-color: #FF000080;*/
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  border-left: var(--color1) solid 4px;
+  padding-left: 8px;
+}
+
+div.cover-contact a {
+  display: block;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+div.cover-contact a:first-child{
+  margin-bottom: 10px;
+}
+
+a.contact-us {
+  border: var(--color1) solid 3px;
+  background-color: rgba(10, 10, 10, 0.479);
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  color: var(--color1);
+  text-decoration: none;
+}
+
+a.contact-us:hover{
+  border-color: white;
+  color: white;
+}
+
+div.profile-section {
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+}
+
+div.section {
+  padding: 30px 40px 30px 40px;
+  overflow: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-top: 0%;
+}
+
+div.grey-section-1 {
+  background: url(images/triangle2white.svg) no-repeat center bottom/100%;
+  background-color: var(--color2);
+  padding-bottom:  75px;
+  align-content: center;
+}
+
+div.vertical-bar {
+  background-color: var(--color1);
+  height: 50px;
+  width: 4px;
+  margin-right: 8px;
+}
+
+table.float-right {
+  float: right;
+}
+
+.col-portfolio {
+  width: 47%;
+}
